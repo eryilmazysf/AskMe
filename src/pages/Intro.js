@@ -13,17 +13,17 @@ import {CategorySelectModal, TimerComponent} from '../components';
 // import {MyComponent} from 'my-test-component-ezran';
 
 const Intro = (props) => {
-  const [timerFlag, setTimerFlag] = useState(false);
   const [counterFlag, setCounterFlag] = useState(false);
   const [modalFlag, setModalFlag] = useState(false);
-  const [key, setKey] = useState(0);
+  const [key, setKey] = useState(0); //restart timer
   const dispatch = useDispatch();
 
   const startGame = (selectedCategory) => {
     // axios.get(`https://opentdb.com/api.php?amount=10&category=${selectedCategory.id}&type=boolean`)
     axios
-      .get(`https://opentdb.com/api.php?`, {
+      .get(`https://opentdb.com/api.php`, {
         params: {
+          //params ?  yerine kullanilir yani ? demek
           amount: 10,
           category: selectedCategory.id,
           type: 'boolean',
@@ -31,15 +31,15 @@ const Intro = (props) => {
         },
       })
       .then((response) => {
+        console.log(response);
         const {
           data: {results: questions},
-        } = response;
+        } = response; // response parcala icinden data icindeki results al
 
         dispatch({type: 'SET_QUESTIONS', payload: {questions}});
       });
 
     setModalFlag(false);
-    setTimerFlag(true);
     setCounterFlag(true);
     setKey((prevKey) => prevKey + 1);
   };
