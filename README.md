@@ -1,12 +1,11 @@
 # AskMe
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/63063197/99708001-3987cb00-2a6b-11eb-8e2c-5d3e433b5c17.png" width="300" height="600">
-  <img src="https://user-images.githubusercontent.com/63063197/99708008-3c82bb80-2a6b-11eb-8918-ccbd3a7817b6.png" width="300" height="600">
-  <img src="https://user-images.githubusercontent.com/63063197/99708015-3e4c7f00-2a6b-11eb-9208-94513ef3ec41.png" width="300" height="600">
-  <img src="https://user-images.githubusercontent.com/63063197/99708020-40164280-2a6b-11eb-8fff-ede5f1a066e8.png" width="300" height="600">
-  <img src="https://user-images.githubusercontent.com/63063197/99708026-42789c80-2a6b-11eb-897b-d095ccbb0c42.png" width="300" height="600">
-  <img width="1000" height="600" alt="authentication" src="https://user-images.githubusercontent.com/63063197/99708033-44426000-2a6b-11eb-8e65-bd63b773c936.png">
-<img width="1000" height="600" alt="chatDatabase" src="https://user-images.githubusercontent.com/63063197/99708039-46a4ba00-2a6b-11eb-97da-ea69cd87ad74.png">
+  <img src="https://user-images.githubusercontent.com/63063197/99714713-eebe8100-2a73-11eb-8529-ca040283f3e3.png" width="300" height="600">
+  <img src="https://user-images.githubusercontent.com/63063197/99714717-f0884480-2a73-11eb-90ba-71b9cf468cc4.png" width="300" height="600">
+  <img src="https://user-images.githubusercontent.com/63063197/99714730-f2520800-2a73-11eb-8042-3a619810f159.png" width="300" height="600">
+  <img src="https://user-images.githubusercontent.com/63063197/99714736-f41bcb80-2a73-11eb-95bb-391c7a303ad1.png" width="300" height="600">
+  <img src="https://user-images.githubusercontent.com/63063197/99714743-f5e58f00-2a73-11eb-9a09-1682d98d4c5c.png" width="300" height="600">
+ 
   </p>
   <p> ➡️  Gaming App runs with the trivia api.  </p>
   <p> ➡️  Users choose a category. Each category consist of several questions.  </p>
